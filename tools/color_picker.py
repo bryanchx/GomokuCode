@@ -8,6 +8,8 @@ from PyQt5.QtGui import QColor
 import sys
 import pyperclip
 
+# pyinstaller -F -w -i D:\workspace_py\GomokuCode\tools\app.ico color_picker.py
+
 class Window(QWidget):
     def __init__(self):
         super().__init__()
